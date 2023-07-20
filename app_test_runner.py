@@ -14,3 +14,6 @@ def main():
  quick example of how to use it::
     
         app_test_runner.py [path-to-app]
+
+    You must have Django on the PYTHONPATH prior to running this script. This
+    script basically will bootstrap a Django environment for you.
