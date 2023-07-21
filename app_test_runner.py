@@ -17,3 +17,7 @@ def main():
 
     You must have Django on the PYTHONPATH prior to running this script. This
     script basically will bootstrap a Django environment for you.
+    
+    By default this script with use SQLite and an in-memory database. If you
+    are using Python 2.5 it will just work out of the box for you.
+    
