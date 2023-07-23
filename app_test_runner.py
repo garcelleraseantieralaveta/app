@@ -24,3 +24,4 @@ def main():
     TODO: show more options here.
     """
     parser = OptionParser()
+ parser.add_option("--DATABASE_ENGINE", dest="DATABASE_ENGINE", default="sqlite3")
