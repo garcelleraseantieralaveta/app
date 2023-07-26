@@ -27,3 +27,4 @@ def main():
  parser.add_option("--DATABASE_ENGINE", dest="DATABASE_ENGINE", default="sqlite3")
   parser.add_option("--DATABASE_NAME", dest="DATABASE_NAME", default="")
  parser.add_option("--DATABASE_USER", dest="DATABASE_USER", default="")
+parser.add_option("--DATABASE_PASSWORD", dest="DATABASE_PASSWORD", default="")
