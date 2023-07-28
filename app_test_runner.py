@@ -30,6 +30,7 @@ def main():
 parser.add_option("--DATABASE_PASSWORD", dest="DATABASE_PASSWORD", default="")
 parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
 
-
+ 
+    options, args = parser.parse_args()
 
 
