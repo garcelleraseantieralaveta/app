@@ -33,4 +33,7 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
  
     options, args = parser.parse_args()
 
+    # check for app in args
+    try:
+        app_path = args[0]
 
