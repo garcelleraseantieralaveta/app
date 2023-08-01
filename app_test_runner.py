@@ -39,3 +39,5 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
  except IndexError:
   print "You did not provide an app path."
         raise SystemExit
+  else:
+        if app_path.endswith("/"):
