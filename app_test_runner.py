@@ -43,3 +43,4 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
         if app_path.endswith("/"):
  app_path = app_path[:-1]
         parent_dir, app_name = os.path.split(app_path)
+ sys.path.insert(0, parent_dir)
