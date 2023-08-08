@@ -53,3 +53,6 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
         "SITE_ID": options.SITE_ID,
  "ROOT_URLCONF": "",
         "TEMPLATE_LOADERS": (
+   "django.template.loaders.filesystem.load_template_source",
+            "django.template.loaders.app_directories.load_template_source",
+        ),
