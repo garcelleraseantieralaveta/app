@@ -60,3 +60,4 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
             os.path.join(os.path.dirname(__file__), "templates"),
  ),
         "INSTALLED_APPS": (
+  # HACK: the admin app should *not* be required. Need to spend some
