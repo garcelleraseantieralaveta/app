@@ -65,3 +65,4 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
  # but was wrongly attached to that ticket. It should have its own
   # ticket.
             "django.contrib.admin",
+   "django.contrib.auth",
