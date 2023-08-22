@@ -72,3 +72,4 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
     app_name,
         ),
     })
+call_command("test")
