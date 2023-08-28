@@ -47,32 +47,3 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
 
     settings.configure(**{
         "DATABASE_ENGINE": options.DATABASE_ENGINE,
- "DATABASE_NAME": options.DATABASE_NAME,
-        "DATABASE_USER": options.DATABASE_USER,
-"DATABASE_PASSWORD": options.DATABASE_PASSWORD,
-        "SITE_ID": options.SITE_ID,
- "ROOT_URLCONF": "",
-        "TEMPLATE_LOADERS": (
-   "django.template.loaders.filesystem.load_template_source",
-            "django.template.loaders.app_directories.load_template_source",
-        ),
-  "TEMPLATE_DIRS": (
-            os.path.join(os.path.dirname(__file__), "templates"),
- ),
-        "INSTALLED_APPS": (
-  # HACK: the admin app should *not* be required. Need to spend some
- # time looking into this. Django #8523 has a patch for this issue,
- # but was wrongly attached to that ticket. It should have its own
-  # ticket.
-            "django.contrib.admin",
-   "django.contrib.auth",
-"django.contrib.contenttypes",
- "django.contrib.sessions",
-            "django.contrib.sites",
-    app_name,
-        ),
-    })
-call_command("test")
-
-if __name__ == "__main__":
- main()
