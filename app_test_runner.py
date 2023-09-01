@@ -50,3 +50,5 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
  "DATABASE_NAME": options.DATABASE_NAME,
 "DATABASE_USER": options.DATABASE_USER,
 "DATABASE_PASSWORD": options.DATABASE_PASSWORD,
+ "SITE_ID": options.SITE_ID,
+        "ROOT_URLCONF": "",
