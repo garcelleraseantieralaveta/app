@@ -52,3 +52,5 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
 "DATABASE_PASSWORD": options.DATABASE_PASSWORD,
  "SITE_ID": options.SITE_ID,
         "ROOT_URLCONF": "",
+  "TEMPLATE_LOADERS": (
+            "django.template.loaders.filesystem.load_template_source",
