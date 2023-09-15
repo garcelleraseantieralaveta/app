@@ -66,3 +66,4 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
             # ticket.
             "django.contrib.admin",
       "django.contrib.auth",
+"django.contrib.contenttypes",
