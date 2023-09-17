@@ -68,3 +68,4 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
       "django.contrib.auth",
 "django.contrib.contenttypes",
  "django.contrib.sessions",
+  "django.contrib.sites",
