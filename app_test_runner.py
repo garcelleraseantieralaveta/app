@@ -73,3 +73,5 @@ parser.add_option("--SITE_ID", dest="SITE_ID", type="int", default=1)
         ),
     })
     call_command("test")
+
+if __name__ == "__main__":
