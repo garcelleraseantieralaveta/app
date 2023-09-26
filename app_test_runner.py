@@ -19,3 +19,4 @@ def main():
  script basically will bootstrap a Django environment for you.
     
     By default this script with use SQLite and an in-memory database. If you
+ are using Python 2.5 it will just work out of the box for you.
