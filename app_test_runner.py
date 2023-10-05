@@ -40,3 +40,5 @@ except IndexError:
     raise SystemExit
     else:
         if app_path.endswith("/"):
+     app_path = app_path[:-1]
+        parent_dir, app_name = os.path.split(app_path)
