@@ -46,3 +46,5 @@ except IndexError:
     
     settings.configure(**{
         "DATABASE_ENGINE": options.DATABASE_ENGINE,
+    "DATABASE_NAME": options.DATABASE_NAME,
+        "DATABASE_USER": options.DATABASE_USER,
