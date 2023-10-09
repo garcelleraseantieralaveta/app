@@ -48,3 +48,8 @@ except IndexError:
         "DATABASE_ENGINE": options.DATABASE_ENGINE,
     "DATABASE_NAME": options.DATABASE_NAME,
         "DATABASE_USER": options.DATABASE_USER,
+  "DATABASE_PASSWORD": options.DATABASE_PASSWORD,
+        "SITE_ID": options.SITE_ID,
+        "ROOT_URLCONF": "",
+        "TEMPLATE_LOADERS": (
+            "django.template.loaders.filesystem.load_template_source",
