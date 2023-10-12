@@ -60,3 +60,4 @@ except IndexError:
    ),
         "INSTALLED_APPS": (
             # HACK: the admin app should *not* be required. Need to spend some
+  # time looking into this. Django #8523 has a patch for this issue,
