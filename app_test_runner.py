@@ -67,3 +67,4 @@ except IndexError:
  "django.contrib.auth",
             "django.contrib.contenttypes",
  "django.contrib.sessions",
+"django.contrib.sites",
