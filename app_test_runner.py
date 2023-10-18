@@ -68,3 +68,7 @@ except IndexError:
             "django.contrib.contenttypes",
  "django.contrib.sessions",
 "django.contrib.sites",
+  app_name,
+        ),
+    })
+    call_command("test")
