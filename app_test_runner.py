@@ -16,3 +16,6 @@ def main():
         app_test_runner.py [path-to-app]
     
     You must have Django on the PYTHONPATH prior to running this script. This
+ script basically will bootstrap a Django environment for you.
+    
+    By default this script with use SQLite and an in-memory database. If you
