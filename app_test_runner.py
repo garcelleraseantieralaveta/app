@@ -35,3 +35,5 @@ def main():
     # check for app in args
     try:
         app_path = args[0]
+ except IndexError:
+        print "You did not provide an app path."
