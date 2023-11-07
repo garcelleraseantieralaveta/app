@@ -37,3 +37,6 @@ def main():
         app_path = args[0]
  except IndexError:
         print "You did not provide an app path."
+  raise SystemExit
+    else:
+        if app_path.endswith("/"):
