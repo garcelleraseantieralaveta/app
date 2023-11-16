@@ -56,3 +56,7 @@ def main():
    "django.template.loaders.app_directories.load_template_source",
         ),
         "TEMPLATE_DIRS": (
+  os.path.join(os.path.dirname(__file__), "templates"),
+        ),
+        "INSTALLED_APPS": (
+            # HACK: the admin app should *not* be required. Need to spend some
