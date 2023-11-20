@@ -64,3 +64,5 @@ def main():
    # but was wrongly attached to that ticket. It should have its own
             # ticket.
   "django.contrib.admin",
+"django.contrib.auth",
+            "django.contrib.contenttypes",
